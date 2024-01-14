@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+.danger-msg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  opacity: 1;
+}
+@media screen and (max-width: 400px) {
+  .danger-msg {
+    opacity: 0;
+  }
+}
